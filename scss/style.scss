@@ -1,7 +1,0 @@
-@mixin rrb {
-  color: red;
-}
-
-h1 {
-  @include rrb();
-}
