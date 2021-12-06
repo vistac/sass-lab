@@ -8,10 +8,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="dist/style.css" />
+  <style type="text/css">
+    div {
+      border: 1px solid red;
+    }
+  </style>
 </head>
 
-<body>
-  <h1>Bootstrap</h1>
+<body class="">
+  <div class="container-fluid bg-primary text-white fixed-top">header</div>
+  <div class="bg-warning">
+    <div class="container">banner</div>
+  </div>
+
+  <div class="body d-flex align-items-stretch">
+    <div class="left-nav bg-info ">left-nav</div>
+    <div class="container">
+      jjjj
+    </div>
+    <div class="right-nav d-none d-lg-block">right-nav</div>
+  </div>
+  <div class="container-fluid bg-primary text-white fixed-bottom">footer</div>
 
 </body>
 

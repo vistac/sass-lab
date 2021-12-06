@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "bootstrap": "^5.1.3"
-  }
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2"
+  },
+  "name": "sass-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon -e html,scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vistac/sass-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vistac/sass-lab/issues"
+  },
+  "homepage": "https://github.com/vistac/sass-lab#readme",
+  "description": ""
 }

@@ -3,5 +3,6 @@
     {
       "savePath": "/dist"
     }
-  ]
+  ],
+  "liveSassCompile.settings.showOutputWindowOn": "Debug",
 }
